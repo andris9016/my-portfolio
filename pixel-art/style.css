@@ -1,0 +1,72 @@
+body {
+	text-align: center;
+	background-image: url('images/background.jpeg');
+	font-family: Monoton, Tahoma, sans-serif;
+	
+}
+
+h1{
+	color: #001827;
+	font-size: 70px;
+	margin: 0.2em;
+}
+
+h1:hover{
+	opacity: 0.8;
+}
+
+h2 {
+	font-size: 28px;
+	color: #001827;
+	margin: 1em 0 0.25em;
+}
+
+h2:first-of-type {
+	margin-top: 0.5em;
+}
+
+#button {
+	margin-left: 5px;
+	padding: 5px;
+	font-family: Tahoma, sans-serif;
+	font-size: 14px;
+	color: #fff;
+	background-color: #001b2c;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+#sizePicker span {
+	font-family: Tahoma, sans-serif;
+	font-weight: 600;
+	color: #001827;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+#colorPicker {
+	cursor: pointer;
+}
+
+table,
+tr,
+td {
+	border: 1px solid ;
+}
+
+table {
+	border-collapse: collapse;
+	margin: 0 auto;
+}
+
+tr {
+	height: 20px;
+}
+
+td {
+	width: 20px;
+}
+
+input[type=number] {
+	width: 6em;
+}
